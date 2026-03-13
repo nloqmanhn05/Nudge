@@ -1,65 +1,174 @@
-# Nudge Dashboard
+# 🛡️ Nudge — Your BNPL Guardian Angel
 
-A financial guardian app built with React + Vite + Tailwind CSS.
+> **SDG 1 — No Poverty | SDG 8 — Decent Work & Economic Growth**
 
-## Features
-- 🟢 Home dashboard with animated ECG & liquidity tracking
-- 💳 BNPL debt stack overview
-- 🧮 Purchase simulation with risk analysis
-- ⭐ Wishlist with savings tracker
-- 👤 Profile / Guardian Hub
-- 🔴 Critical state mode — dashboard turns red when user ignores high-risk warnings
+A financial wellness app that consolidates Buy Now Pay Later (BNPL) debt across platforms, simulates purchase impact, and nudges users toward healthier spending habits — built for Southeast Asia.
 
 ---
 
-## Getting Started
+## 👥 Team Members
 
-### 1. Clone the repo
-```bash
-git clone 
-cd Nudge
-```
+| Name | Role |
+|------|------|
+| Hakim | Lead Developer / UI UX Designer / Quality Assurance Testing |
+| Kareem | Co Lead Developer / Quality Assurance Testing |
+| Nabil | Co Lead Developer |
+| Shuhada | Report Documentation |
+| Tasneem | Video Documentation |
 
-### 2. Install dependencies
+---
+
+## 📋 Project Summary
+
+Millions of users in Southeast Asia juggle multiple BNPL platforms — Grab PayLater, Shopee SPayLater, Atome — simultaneously, with no single tool to track their total debt exposure. **Nudge** acts as a personal Guardian Angel that:
+
+- 📊 Consolidates all BNPL debts into one dashboard
+- ⚡ Simulates the impact of new purchases before you commit
+- 🚨 Warns users with a real-time ECG-style financial health indicator
+- 💱 Supports 10 ASEAN currencies (MYR, SGD, IDR, THB, PHP, VND & more)
+- 🎯 Promotes savings-first behaviour through a Wishlist feature
+
+---
+
+## 🔗 Submission Links
+
+| Item | Link |
+|------|------|
+| 🎨 Stitch Design File | (https://stitch.withgoogle.com/projects/5750198227489268957) |
+| 🖥️ Prototype (Interactive) | [(your input — paste your Figma prototype or hosted app link)](https://figma.com) |
+| 🎬 Video Demo (YouTube Unlisted) | [(your input — paste your YouTube unlisted link)](https://youtube.com) |
+| 📄 Project Report (PDF) | [NudgeReport.pdf](./NudgeReport.pdf) |
+| 💻 GitHub Repository | [(your input — paste your full GitHub repo URL)](https://github.com) |
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Framework | React 18 + Vite |
+| Styling | Tailwind CSS + Inline Styles |
+| Language | JavaScript (JSX) + Html |
+| Fonts | Inter, Google Sans, Material Symbols |
+| Build Tool | Vite |
+| Design Tool | Stitch (Google) + Google AI Studio|
+
+---
+
+## 🚀 Setup Instructions
+
+### Prerequisites
+- Node.js v18 or higher
+- npm v9 or higher
+
+### Installation
+
 ```bash
+# 1. Clone the repository
+git clone https://github.com/(your input — your username)/nudge-dashboard.git
+
+# 2. Navigate into the project folder
+cd nudge-dashboard
+
+# 3. Install dependencies
 npm install
-```
 
-### 3. Run the dev server
-```bash
+# 4. Start the development server
 npm run dev
 ```
 
-Then open **http://localhost:5173** in your browser.
+### Build for Production
 
----
-
-## Build for production
 ```bash
 npm run build
 ```
-Output will be in the `dist/` folder.
+
+The app will be available at `http://localhost:5173` after running `npm run dev`.
 
 ---
 
-## Project Structure
+## 📱 Key Features
+
+### 🏠 Home Dashboard
+Real-time balance display with an animated ECG health wave. Switches between **Safe State** (teal) and **Danger Mode** (red) based on your financial health. Shows your full BNPL Shadow Debt Stack.
+
+### 💳 BNPL Debt Tracker
+Tracks multiple BNPL providers (Grab PayLater, Shopee SPayLater, Atome) with progress bars, credit utilisation percentages, and due date countdowns.
+
+### 🧪 Purchase Simulation
+Enter any item and BNPL provider — Nudge calculates the monthly commitment and shows a **Guardian Tip** advising whether you can afford it. Leads into a full Risk Analysis screen.
+
+### ⚠️ Friction Screen
+If you proceed despite a high-risk warning, Nudge shows the **"Financial Shackles"** screen — including a work-hours cost calculator and an accountability checkbox — to make you think twice.
+
+### 🌏 ASEAN Multi-Currency
+Supports MYR, SGD, IDR, THB, PHP, VND, MMK, KHR, LAK, and BND. Set during onboarding and adjustable anytime in your profile.
+
+### 🎯 Future Wishlist
+Add savings goals (e.g. MacBook Air M4, Weekend Getaway) and track progress — promoting save-first behaviour instead of impulsive BNPL purchases.
+
+### 👤 Guardian Hub (Profile)
+Personalised with your name from onboarding. Manage currency, security settings, connected BNPL providers, and bank sync.
+
+---
+
+## 📁 Project Structure
+
 ```
 nudge-dashboard/
-├── index.html
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
-├── .gitignore
-└── src/
-    ├── main.jsx        ← React entry point
-    ├── index.css       ← Tailwind base styles
-    └── Dashboard.jsx   ← Main app component
+├── src/
+│   ├── Dashboard.jsx      # Main single-file React application
+│   ├── main.jsx           # React entry point
+│   └── index.css          # Global styles
+├── index.html             # HTML entry point
+├── vite.config.js         # Vite configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+├── postcss.config.js      # PostCSS configuration
+├── package.json           # Dependencies
+├── NudgeReport.pdf        # Full project report
+└── README.md              # This file
 ```
 
 ---
 
-## Tech Stack
-- [React 18](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
+## 🤖 AI Disclosure
+
+In accordance with competition guidelines, the following AI tools were used:
+
+| Tool | Provider | Usage |
+|------|----------|-------|
+| **Claude (Sonnet 4.6)** | Anthropic | Help to generated React/Vite codebase (`Dashboard.jsx`); built and refined all UI components; implemented ASEAN multi-currency system; wired onboarding identity to profile; debugging; build verification; GitHub preparation |
+| **Stitch** | Google | Designed UI layout, visual components, colour system, and overall aesthetic of the Nudge dashboard |
+| **Gemini 3.1 Pro** | Google | Used for debugging and troubleshooting during development |
+| **Google AI Studio** | Google | Used to help generate interactive and clickable prototype |
+
+---
+
+## 🌍 SDG Alignment
+
+| SDG | How Nudge Contributes |
+|-----|----------------------|
+| **SDG 1 — No Poverty** | Helps users avoid BNPL debt traps that push low-income earners into financial distress |
+| **SDG 8 — Decent Work & Economic Growth** | Promotes financial literacy and responsible economic behaviour among young adults in Southeast Asia |
+
+---
+
+## 🔒 Privacy & Security
+
+Nudge is built with a **privacy-first** approach:
+
+- ✅ All financial data stored **locally on device only** — never transmitted to external servers
+- ✅ No third-party advertising SDKs or data brokers
+- ✅ Account numbers **masked by default** (e.g. ****5678)
+- ✅ Minimal data collection — only what is needed to provide the service
+- ✅ Designed in compliance with Malaysia's **Personal Data Protection Act (PDPA) 2010**
+
+---
+
+## 📄 License
+
+This project was built for hackathon/competition purposes.
+
+---
+
+*Nudge — Built for Southeast Asia. Designed for financial freedom.* 🛡️
