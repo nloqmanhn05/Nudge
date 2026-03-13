@@ -12,7 +12,7 @@ A financial wellness app that consolidates Buy Now Pay Later (BNPL) debt across 
 |------|------|
 | Hakim | Lead Developer / UI UX Designer / Quality Assurance Testing |
 | Kareem | Co Lead Developer / Quality Assurance Testing |
-| Nabil | Co Lead Developer |
+| Nabil | Backend Developer |
 | Shuhada | Report Documentation |
 | Tasneem | Video Documentation |
 
