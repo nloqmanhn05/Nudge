@@ -36,7 +36,7 @@ Millions of users in Southeast Asia juggle multiple BNPL platforms — Grab PayL
 |------|------|
 | 🎨 Stitch Design File | (https://stitch.withgoogle.com/projects/5477638289673752750) |
 | 🖥️ Prototype (Interactive) | (https://ai.studio/apps/9ed170c6-0ab2-42ed-b273-f8b54688e321) |
-| 🎬 Video Demo (YouTube Unlisted) | https://youtu.be/XUyRveJxJFA |
+| 🎬 Video Demo (YouTube ) | https://youtu.be/XUyRveJxJFA |
 | 📄 Project Report (PDF) | https://drive.google.com/file/d/1gPIu1DQt1jiFuogTV1O7co0C50Opsi9v/view |
 | 💻 GitHub Repository | https://github.com/nloqmanhn05/Nudge |
 
@@ -126,7 +126,6 @@ nudge-dashboard/
 ├── tailwind.config.js     # Tailwind CSS configuration
 ├── postcss.config.js      # PostCSS configuration
 ├── package.json           # Dependencies
-├── NudgeReport.pdf        # Full project report
 └── README.md              # This file
 ```
 
