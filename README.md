@@ -37,7 +37,7 @@ Millions of users in Southeast Asia juggle multiple BNPL platforms — Grab PayL
 | 🎨 Stitch Design File | (https://stitch.withgoogle.com/projects/5477638289673752750) |
 | 🖥️ Prototype (Interactive) | (https://ai.studio/apps/9ed170c6-0ab2-42ed-b273-f8b54688e321) |
 | 🎬 Video Demo (YouTube Unlisted) | [(your input — paste your YouTube unlisted link)](https://youtube.com) |
-| 📄 Project Report (PDF) | [NudgeReport.pdf](./NudgeReport.pdf) |
+| 📄 Project Report (PDF) | https://drive.google.com/file/d/1gPIu1DQt1jiFuogTV1O7co0C50Opsi9v/view |
 | 💻 GitHub Repository | https://github.com/nloqmanhn05/Nudge |
 
 ---
