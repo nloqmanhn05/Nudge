@@ -1,4 +1,4 @@
-# 🛡️ Nudge — Your BNPL Guardian Angel
+# 🛡️ Nudge : Your BNPL Guardian Angel
 
 > **SDG 1 : No Poverty | SDG 8 : Decent Work & Economic Growth**
 
