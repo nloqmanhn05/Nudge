@@ -1,6 +1,6 @@
 # 🛡️ Nudge — Your BNPL Guardian Angel
 
-> **SDG 1 — No Poverty | SDG 8 — Decent Work & Economic Growth**
+> **SDG 1 : No Poverty | SDG 8 : Decent Work & Economic Growth**
 
 A financial wellness app that consolidates Buy Now Pay Later (BNPL) debt across platforms, simulates purchase impact, and nudges users toward healthier spending habits — built for Southeast Asia.
 
@@ -34,11 +34,11 @@ Millions of users in Southeast Asia juggle multiple BNPL platforms — Grab PayL
 
 | Item | Link |
 |------|------|
-| 🎨 Stitch Design File | (https://stitch.withgoogle.com/projects/5750198227489268957) |
-| 🖥️ Prototype (Interactive) | [(your input — paste your Figma prototype or hosted app link)](https://figma.com) |
+| 🎨 Stitch Design File | (https://stitch.withgoogle.com/projects/5477638289673752750) |
+| 🖥️ Prototype (Interactive) | (https://ai.studio/apps/9ed170c6-0ab2-42ed-b273-f8b54688e321) |
 | 🎬 Video Demo (YouTube Unlisted) | [(your input — paste your YouTube unlisted link)](https://youtube.com) |
 | 📄 Project Report (PDF) | [NudgeReport.pdf](./NudgeReport.pdf) |
-| 💻 GitHub Repository | [(your input — paste your full GitHub repo URL)](https://github.com) |
+| 💻 GitHub Repository | https://github.com/nloqmanhn05/Nudge |
 
 ---
 
@@ -65,10 +65,10 @@ Millions of users in Southeast Asia juggle multiple BNPL platforms — Grab PayL
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/(your input — your username)/nudge-dashboard.git
+git clone https://github.com/nloqmanhn05/Nudge
 
 # 2. Navigate into the project folder
-cd nudge-dashboard
+cd Nudge
 
 # 3. Install dependencies
 npm install
@@ -83,7 +83,7 @@ npm run dev
 npm run build
 ```
 
-The app will be available at `http://localhost:5173` after running `npm run dev`.
+The app will be available at  after running. 
 
 ---
 
@@ -148,8 +148,8 @@ In accordance with competition guidelines, the following AI tools were used:
 
 | SDG | How Nudge Contributes |
 |-----|----------------------|
-| **SDG 1 — No Poverty** | Helps users avoid BNPL debt traps that push low-income earners into financial distress |
-| **SDG 8 — Decent Work & Economic Growth** | Promotes financial literacy and responsible economic behaviour among young adults in Southeast Asia |
+| **SDG 1 : No Poverty** | Helps users avoid BNPL debt traps that push low-income earners into financial distress |
+| **SDG 8 :  Decent Work & Economic Growth** | Promotes financial literacy and responsible economic behaviour among young adults in Southeast Asia |
 
 ---
 
